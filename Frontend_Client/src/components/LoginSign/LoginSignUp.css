@@ -1,0 +1,47 @@
+.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginSignUpContainer {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  width: 400px;
+}
+
+.loginSignUpTabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #333;
+}
+
+.loginSignUpTabs p {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginSignUpTabs p:hover,
+.loginSignUpTabs .active {
+  background-color: #1db954;
+  color: #ffffff;
+}
+
+.loginSignUpTabsContent {
+  padding: 20px 0;
+}
+
+.loginSignUpTabsContentLoginText,
+.loginSignUpTabsContentRegisterText {
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+}

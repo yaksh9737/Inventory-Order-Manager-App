@@ -1,0 +1,19 @@
+@media (max-width: 962px) {
+    .flex-md-row {
+      flex-direction: column !important;
+    }
+  
+    .ms-3 {
+      margin-left: 0 !important;
+    }
+  
+    .px-4 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  
+    .d-flex.flex-row.align-items-center.text-center.justify-content-between.flex-md-row.flex-column > div {
+      margin-bottom: 1rem;
+    }
+  }
+  

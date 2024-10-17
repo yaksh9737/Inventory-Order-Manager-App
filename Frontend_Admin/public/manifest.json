@@ -1,0 +1,16 @@
+{
+  "short_name": "Kalgi Panel",
+  "name": "Prepair Kalgi Panel App",
+  "icons": [
+    {
+      "src": "fevicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1976d2",
+  "background_color": "#ffffff"
+}
